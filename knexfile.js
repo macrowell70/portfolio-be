@@ -1,4 +1,5 @@
 module.exports = {
+development : {    
     client: "sqlite3",
     connection: {
         filename: "./data/database.db3"
@@ -15,4 +16,5 @@ module.exports = {
     seeds: {
     directory: "./data/seeds",
     },
+  }
 }
